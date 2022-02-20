@@ -10,7 +10,7 @@
 namespace WalletConfig
 {
     /* The prefix your coins address starts with */
-    const std::string_view addressPrefix = "1BL";
+    const std::string_view addressPrefix = "BGC";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
     const std::string ticker = "BGC";
@@ -23,7 +23,7 @@ namespace WalletConfig
     const std::string addressBookFilename = ".addressBook.json";
 
     /* The name of your deamon */
-    const std::string daemonName = "TurtleCoind";
+    const std::string daemonName = "BlockchainGoldCoind";
 
     /* The name to call this wallet */
     const std::string walletName = "BGCwallet";
